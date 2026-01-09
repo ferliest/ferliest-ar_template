@@ -14,13 +14,13 @@ let currentStage = "intro";
 const STAGES = {
   intro: {
     bg: "assets/intro.jpg",
-    title: "Τα Χαμένα Αντικείμενα",
+    title: "The Lost Treasure",
     text: `Ένα παιχνίδι γνώσεων και περιπέτειας.`,
     buttons: [
       { label: "Start", action: () => {
           enableSound();
           playAmbient();
-          speak(STAGES.intro.text);
+          speak(STAGES.intro.title);
           buttonsEl.innerHTML = "";
           const contBtn = document.createElement("button");
           contBtn.textContent = "Continue";
@@ -129,7 +129,6 @@ voiceToggle.addEventListener("click", () => {
   } else {
     enableSound();
     playAmbient();
-    if (STAGES[currentStage]) speak(STAGES[currentStage].text);
   }
 });
 
