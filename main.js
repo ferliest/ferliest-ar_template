@@ -15,7 +15,7 @@ const STAGES = {
   intro: {
     bg: "assets/intro.jpg",
     title: "The Lost Treasure",
-    text: `Ένα παιχνίδι γνώσεων και περιπέτειας.`,
+    text: `A Game Of Knowledge And Adventure`,
     buttons: [
       { label: "Start", action: () => {
           enableSound();
@@ -32,10 +32,10 @@ const STAGES = {
 
   role: {
     bg: "assets/role-selection.png",
-    title: "Your Quest",
-    text: `Explore and reveal what lies hidden.`,
+    title: "Menu",
+    text: `Are you ready to find all the Treasures`,
     buttons: [
-      { label: "Lore Keeper", action: () => goTo("lore") },
+      { label: "Start Game", action: () => goTo("lore") },
       { label: "Instructions", action: () => goTo("instructions") }
     ]
   },
