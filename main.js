@@ -13,9 +13,9 @@ let currentStage = "intro";
 // ===== Stage data =====
 const STAGES = {
   intro: {
-    bg: "assets/intro.png",
-    title: "AR Experience",
-    text: `Sth about the setting.`,
+    bg: "assets/intro.jpg",
+    title: "Τα Χαμένα Αντικείμενα",
+    text: `Ένα παιχνίδι γνώσεων και περιπέτειας.`,
     buttons: [
       { label: "Start", action: () => {
           enableSound();
