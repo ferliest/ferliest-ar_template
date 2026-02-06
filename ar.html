@@ -119,7 +119,7 @@
       );
 
       await createExperience(
-        './assets/models/listener/scene.gltf', 
+        './assets/models/model1/scene.gltf', 
         1, 
         listener, 
         './assets/sounds/sound2.mp3', 
@@ -127,13 +127,29 @@
       );
 
       await createExperience(
-        './assets/models/nemesis/scene.gltf', 
+        './assets/models/model1/scene.gltf', 
         2, 
         listener, 
         './assets/sounds/correct.mp3', 
         new THREE.Vector3(1.3, 1.3, 1.3)
       );
 
+	  await createExperience(
+        './assets/models/model1/scene.gltf', 
+        2, 
+        listener, 
+        './assets/sounds/correct.mp3', 
+        new THREE.Vector3(1.3, 1.3, 1.3)
+      );
+	  
+	  await createExperience(
+        './assets/models/model1/scene.gltf', 
+        2, 
+        listener, 
+        './assets/sounds/correct.mp3', 
+        new THREE.Vector3(1.3, 1.3, 1.3)
+      );
+	  
       await mindarThree.start();
 
       renderer.setAnimationLoop(() => {
