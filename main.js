@@ -33,7 +33,7 @@ const STAGES = {
   role: {
     bg: "assets/role-selection.png",
     title: "Menu",
-    text: `Are you ready to find all the Treasures`,
+    text: `Are you ready to solve all the riddles`,
     buttons: [
       { label: "Start Game", action: () => goTo("lore") },
       { label: "Instructions", action: () => goTo("instructions") }
@@ -42,8 +42,8 @@ const STAGES = {
 
   lore: {
     bg: "assets/lore-keeper.png",
-    title: "Lore Keeper",
-    text: `Use AR to uncover traces. Each clue will reveal a part of the story.`,
+    title: "START THE GAME",
+    text: `Press Explore Via AR and open your camera. Scan the statue of Hercules to meet the archeologist.`,
     buttons: [
       { label: "Explore via AR", action: () => {
           stopAmbient();
