@@ -98,7 +98,7 @@
 
       mindarThree = new window.MINDAR.IMAGE.MindARThree({
         container: arUI,
-        imageTargetSrc: './assets/targets/targets.mind' // Βεβαιώσου ότι περιέχει 3 στόχους
+        imageTargetSrc: './assets/targets/target.mind' // Βεβαιώσου ότι περιέχει 5 στόχους
       });
 
       const { renderer, scene, camera } = mindarThree;
@@ -109,7 +109,7 @@
       const listener = new THREE.AudioListener();
       camera.add(listener);
 
-      // Create 3 AR experiences
+      // Create 5 AR experiences
       await createExperience(
         './assets/models/model1/scene.gltf', 
         0, 
