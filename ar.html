@@ -82,12 +82,12 @@
       audio.setBuffer(audioBuffer);
       audio.setRefDistance(50);
       audio.setLoop(true);
-      audio.setVolume(1); // volume 0-1
+      audio.setVolume(20); // volume 0-1
 
       anchor.group.add(audio);
 
       anchor.onTargetFound = () => {
-		audio.setVolume(2);     // 🔊 BOOST (ναι, επιτρέπεται >1)
+		audio.setVolume(20);     // 🔊 BOOST (ναι, επιτρέπεται >1)
 		audio.play();
 	};
 
