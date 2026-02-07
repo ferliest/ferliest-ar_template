@@ -80,7 +80,7 @@
 
       const audio = new THREE.PositionalAudio(listener);
       audio.setBuffer(audioBuffer);
-      audio.setRefDistance(20);
+      audio.setRefDistance(50);
       audio.setLoop(true);
       audio.setVolume(1); // volume 0-1
 
@@ -91,10 +91,6 @@
 		audio.play();
 	};
 
-	  anchor.onTargetLost = () => {
-		audio.pause();
-		audio.setVolume(1);   // προαιρετικό
-	};
       anchor.onTargetLost = () => audio.pause();
 
       return anchor;
