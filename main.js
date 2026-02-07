@@ -56,11 +56,11 @@ const STAGES = {
 
   instructions: {
     bg: "assets/instructions.png",
-    title: "How to Play — Overview",
+    title: "How to Play",
     text: `
-      • You play as the <b>Lore Keeper</b>.<br>
-      • Use your device camera to scan AR markers hidden in the environment.<br>
-      • Each marker reveals a voice message or a symbol.<br>
+      • Scan the statue of <b>Hercules</b> to start the experience.<br>
+      • Solve the explorer's riddles to find the loest treasure.<br>
+      • Each marker reveals a voice message that helps you continue.<br>
       • Collect all the pieces, then finish your task.<br>
     `,
     buttons: [
