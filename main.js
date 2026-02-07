@@ -14,7 +14,7 @@ let currentStage = "intro";
 const STAGES = {
   intro: {
     bg: "assets/intro.jpg",
-    title: "The Lost Treasure",
+    title: "Museum Riddles",
     text: `A Game Of Knowledge And Adventure`,
     buttons: [
       { label: "Start", action: () => {
