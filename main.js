@@ -72,7 +72,7 @@ const STAGES = {
   end: {
   bg: "assets/olympus.jpg",
   title: "The end",
-  text: `You found all the treasures.<br>;`,
+  text: `You found all the treasures.<br>`,
   buttons: [
     { label: "Play Again", action: () => goTo("intro", true) }
   ]
