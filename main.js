@@ -59,9 +59,9 @@ const STAGES = {
     title: "How to Play",
     text: `
       • Scan the statue of <b>Hercules</b> to start the experience.<br>
-      • Solve the explorer's riddles to find the lost treasure.<br>
-      • Each marker reveals a voice message that helps you continue.<br>
-      • Collect all the pieces, then finish your task.<br>
+      • Solve the explorer's riddles to find the exhibits.<br>
+      • Each exhibit reveals the next riddle.<br>
+      • Solve all the riddles to finish the game.<br>
     `,
     buttons: [
       { label: "Back", action: () => goTo("role") }
