@@ -96,7 +96,7 @@ function disableSound() {
 
 function playAmbient() {
   if (!soundEnabled) return;
-  ambientAudio.volume = 0.4;
+  ambientAudio.volume = 0.3;
   ambientAudio.play().catch(() => {});
 }
 
