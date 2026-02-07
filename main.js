@@ -71,10 +71,10 @@ const STAGES = {
   // ——— Minimal edits so the end "has meaning" ———
   end: {
   bg: "assets/olympus.jpg",
-  title: "Ολοκλήρωση",
-  text: `Ολοκλήρωσες το ταξίδι σου.<br><br>Θέλεις να ξαναρχίσεις;`,
+  title: "The end",
+  text: `You found all the treasures.<br>;`,
   buttons: [
-    { label: "Ξεκίνημα ξανά", action: () => goTo("intro", true) }
+    { label: "Play Again", action: () => goTo("intro", true) }
   ]
 }
 };
