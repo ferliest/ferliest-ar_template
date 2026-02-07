@@ -80,9 +80,9 @@
 
       const audio = new THREE.PositionalAudio(listener);
       audio.setBuffer(audioBuffer);
-      audio.setRefDistance(10);
+      audio.setRefDistance(1);
       audio.setLoop(true);
-      audio.setVolume(10); // volume 0-1
+      audio.setVolume(1); // volume 0-1
 
       anchor.group.add(audio);
 
