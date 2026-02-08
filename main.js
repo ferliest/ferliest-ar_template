@@ -33,7 +33,7 @@ const STAGES = {
   role: {
     bg: "assets/role-selection.png",
     title: "Menu",
-    text: `Are you ready to solve all the riddles`,
+    text: `Are you ready to solve all the riddles?`,
     buttons: [
       { label: "Start Game", action: () => goTo("lore") },
       { label: "Instructions", action: () => goTo("instructions") }
